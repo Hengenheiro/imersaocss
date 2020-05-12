@@ -1,0 +1,33 @@
+body {
+    background-image: url('http://conexaoeclesia.com.br/wp-content/uploads/2015/11/martelo-e-prego-e1448649451494.jpg');
+    background-size: auto 100vh;
+    font-family: Verdana;
+    height: 100vh;
+  }
+  
+  .menu {
+    background-color: magenta;
+  }
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+    color: purple
+     ;
+  }
+  a:hover {
+   text-decoration: underline;
+  }
+  .site-subtittle,
+  .site-tittle{
+    test-align: center;
+    color: whitesmoke;
+  }
+  .site-subtittle{
+    font-style: italic;
+  }
